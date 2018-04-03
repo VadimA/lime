@@ -83,17 +83,6 @@ object NinetyNine{
     if(list.isEmpty)
       Nil
     List()
-}
-
-  def main(args:Array[String]): Unit = {
-    println(last(List(1,2,3,1,5,13,567)));
-    println(prelast(List(1,2,3,1,5,13,567)));
-    println(nth(6,List(1,2,3,1,5,13,567)));
-    println(length(List("12","324","1")));
-    println(reverse(List(1,2,3,1,5,13,567)));
-    println(isPalindrome(List(1,2,3,4,3,2,1)));
-    println(flatten(List(List(1, 1), 2, List(3, List(5, 8)))));
-    println(compress(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)));
-    println(pack(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)));
   }
+
 }
